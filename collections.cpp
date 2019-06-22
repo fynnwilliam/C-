@@ -52,7 +52,7 @@ int main () {
   cout << "the vector, vi has " << threes << " twos\n";
 
   /**
-  int tees = count (begin(vs[0]), end(vs[0]), "t");
+  int tees = count (begin(vs[2]), end(vs[2]), "t");
   cout << "the second word in vector vs has " << tees << " letter t's\n";
   **/
 
