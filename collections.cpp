@@ -31,5 +31,30 @@ int main () {
   }
   cout << endl;
 
+  cout << "the vector vi has " << vi.size() << " elements\n";
 
+  vi[3] = 34;
+  vi[8] = 22;
+  vi[1] = 89;
+
+  for (auto item:vi) {
+    cout << item << " ";
+  }
+  cout << endl;
+
+  sort(begin(vs),end(vs));
+
+  for (auto item:vs) {
+    cout << item << " ";
+  }
+
+  int threes = count (begin(vi), end(vi), 2);
+  cout << "the vector, vi has " << threes << " twos\n";
+
+  /**
+  int tees = count (begin(vs[0]), end(vs[0]), "t");
+  cout << "the second word in vector vs has " << tees << " letter t's\n";
+  **/
+
+  return 0;
 }
