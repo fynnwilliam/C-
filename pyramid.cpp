@@ -5,7 +5,7 @@ using std::endl;
 
 int main()
 {
-    int space = 10;
+    int space = 100;
     int asterisk = 1;
     
     while (space)
