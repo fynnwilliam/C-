@@ -18,7 +18,7 @@ int main()
             cout << " ";
         }
         
-        cout << space << endl;
+        //cout << space << endl;
         
         for (innerAsterisk; innerAsterisk != 0; innerAsterisk--)
         {
